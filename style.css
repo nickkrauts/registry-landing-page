@@ -2,6 +2,7 @@ body {
 
     display: flex; 
     flex-direction: column;
+    background-color: rgba(38, 171, 127, 0.584);
 
 }
 
@@ -11,7 +12,9 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    margin: 0px 10px;
+    padding: 0px 20px;
+    margin: -10px;
+    background-color: rgba(0, 69, 99, 0.58);
 }
 
 .push-link-one{
@@ -19,17 +22,28 @@ body {
     margin-left: auto;
 }
 
+h6 {
+
+    text-align: center;
+    font-size: large;
+}
 
 .title-section{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 15px 10px 10px 10px;
 }
 
 .title-text{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 50%;
 
 }
 
@@ -40,4 +54,37 @@ body {
 
     height: 15em;
     width: auto;
+    margin: 20px;
+
+}
+
+.registry-links {
+
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.amazon-logo, .kyte-logo, .target-logo {
+
+    height: 5em;
+    width: auto;
+    margin: 10px;
+    margin-bottom: 2px;
+    background-color: white;
+    padding: 5px;
+    
+  /* When adding a background, specify its appearance ie. "solid" */
+
+    
+    border: solid 10px white;
+    border-radius: 25%;
+
+    /* consider color change here */
+    outline: 2px solid salmon;
+    
 }

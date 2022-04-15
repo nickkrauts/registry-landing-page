@@ -1,0 +1,43 @@
+body {
+
+    display: flex; 
+    flex-direction: column;
+
+}
+
+
+.header {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.push-link-one{
+
+    margin-left: auto;
+}
+
+
+.title-section{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-text{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Q: how do I make the image grow/shrink with page?
+        flex: auto?  */
+
+#ultrasound {
+
+    height: 15em;
+    width: auto;
+}

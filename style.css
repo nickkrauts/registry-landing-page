@@ -1,9 +1,13 @@
+/* TODO can I get rid of the tiny amount of 
+    horizontal scroll bar? */
+
+
 body {
 
     display: flex; 
     flex-direction: column;
     background-color: rgba(38, 171, 127, 0.584);
-
+    
 }
 
 
@@ -22,30 +26,7 @@ body {
     margin-left: auto;
 }
 
-
-/* work more on how to style the links border here  */
-.section-two {
-
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    background-color: white;
-    margin: -10px;
-    /*
-    border-left: solid rgba(38, 171, 127, 0.584);
-    border-right: solid  rgba(38, 171, 127, 0.584);
-    */
     
-   
-
-}
-
-h6 {
-
-    text-align: center;
-    font-size: large;
-}
-
 .title-section{
 
     display: flex;
@@ -76,10 +57,34 @@ h6 {
 
 }
 
+/* TO-DO make container fill to edges of screen
+    A: used an outline  
+    
+    TO-DO still have a horizontal scrollbar */
+.section-two {
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: white;
+    border-right: solid  white;
+    border-left: solid  white;
+    width: 100%;
+    outline: 10px solid white;
+}
+
+
+
+h6 {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+
 .registry-links {
 
     display: flex;
-    
     justify-content: center;
     align-content: center;
     gap: 20px;

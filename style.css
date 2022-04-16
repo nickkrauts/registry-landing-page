@@ -31,6 +31,7 @@ body {
 
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 15px 10px 10px 10px;
 }
 
@@ -89,6 +90,8 @@ h6 {
     align-content: center;
     gap: 20px;
     text-align: center;
+    flex-wrap: wrap;
+
     
 }
 
@@ -178,6 +181,5 @@ footer {
     text-align: center;
     width: 100%;
     outline: solid 10px black;
-    mar
     margin-top: 5px;
 }
